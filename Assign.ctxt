@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Assign
+comment0.text=\r\n\ Assign\r\n\ This\ class\ handles\ the\ creation\ of\ all\ moves\ in\ the\ game\r\n\ It\ stores\ the\ row\ and\ column\ of\ the\ move,\ and\ the\ state\ of\ the\ slot\ being\ assigned\r\n\ Assigns\ each\ move\ the\ game\ based\ on\ row\ and\ columns\r\n\ \r\n\ \r\n\ @author\ Lauren\ Scott\r\n\ @author\ Arun\ Kumar\ Sekar\r\n\ \r\n\ @version\ Janurary\ 2024\r\n
+comment1.params=game\ row\ col\ number\ prevState
+comment1.target=Assign(Sudoku,\ int,\ int,\ java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Constructor\ for\ Assign\ class.\r\n\ This\ gets\ the\ total\ number\ of\ moves\ and\ calls\ methods\ to\ determine\ the\ row\ that\ will\ be\ filled,\ and\ to\ set\ the\ state\ of\ the\ slot\ being\ assigned.\r\n\ @param\ game\ -\ the\ game\r\n\ @param\ col\ -\ the\ column\ the\ user\ has\ selected\r\n\ @param\ player\ -\ a\ Boolean\ value\ that\ determines\ whether\ it\ is\ a\ player/computer\ move\r\n
+comment2.params=number
+comment2.target=void\ assignMove(java.lang.String)
+comment2.text=\r\n\ assignMove\r\n\ This\ method\ assigns\ the\ move\ to\ the\ game\r\n\ @param\ player\ a\ Boolean\ value\ to\ determine\ whether\ it\ is\ a\ computer/player\ move\r\n
+comment3.params=
+comment3.target=int\ getRow()
+comment3.text=\r\n\ getRow\r\n\ This\ method\ returns\ the\ current\ row\ value\ for\ this\ move.\ It\ allows\ another\ element\ of\ the\ program\ to\ access\ this\ move's\ current\ row.\r\n\ @return\ the\ row\ value\r\n
+comment4.params=
+comment4.target=int\ getCol()
+comment4.text=\r\n\ getCol\r\n\ This\ method\ returns\ the\ current\ col\ value\ for\ this\ move.\ It\ allows\ another\ element\ of\ the\ program\ to\ access\ this\ move's\ current\ col.\r\n\ @return\ the\ Col\ value\r\n
+comment5.params=
+comment5.target=java.lang.String\ getPrevMove()
+comment5.text=\r\n\ getPrevMove\r\n\ This\ method\ returns\ the\ previous\ state\ of\ the\ slot\ to\ perform\ the\ undo\ operation\r\n\ \r\n\ @return\ previous\ value\ of\ the\ slot\r\n
+comment6.params=
+comment6.target=java.lang.String\ getNumber()
+comment6.text=\r\n\ getNumber\r\n\ This\ method\ returns\ the\ latest\ iput\ number\ to\ perform\ the\ redo\ operation\r\n\ \r\n\ @return\ latest\ value\ of\ the\ slot\r\n
+numComments=7

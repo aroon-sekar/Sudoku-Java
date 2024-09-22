@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=FileDriver
+comment0.text=\r\n\ This\ class\ is\ used\ to\ save\ and\ load\ games.\r\n\ It\ is\ a\ subclass\ of\ the\ SudokuGUI\ class.\r\n\ It\ inherits\ all\ the\ methods\ and\ variables\ of\ the\ SudokuGUI\ class.\r\n\ \r\n\ JFILECHOOSER\ has\ been\ refernced\ from\ Oracle.com(2024).\r\n\ Credited\ in\ the\ References\ in\ Report\r\n\ \r\n\ @author\ Arun\ Kumar\ Sekar\r\n\ @version\ January\ 2024\r\n\ \r\n
+comment1.params=theGame\ gridSize\ statusArea
+comment1.target=void\ saveGame(Sudoku,\ int,\ javax.swing.JTextArea)
+comment1.text=\r\n\ This\ method\ loads\ the\ previously\ saved\ game\ from\ the\ file\ (sudukoGUI.txt)\ in\ the\ same\ state\ it\ was\ saved\ in.\r\n\ Constructor\ for\ objects\ of\ class\ FileDriver\r\n\ Calls\ the\ constructor\ of\ the\ SudokuGUI\ class\r\n\ Uses\ the\ file\ chooser\ from\ the\ swing\ package\ to\ enable\ the\ external\ file\ browser\r\n\ Displays\ the\ file\ chooser\ to\ the\ user\r\n\r\n\ @throws\ FileNotFoundException\ if\ the\ file\ is\ not\ found\r\n
+comment2.params=theGame\ gridSize\ statusArea\ sudokuGUI
+comment2.target=void\ loadGame(Sudoku,\ int,\ javax.swing.JTextArea,\ SudokuGUI)
+comment2.text=\r\n\ This\ method\ loads\ the\ previously\ saved\ game\ from\ the\ file\ (sudukoGUI.txt)\ in\ the\ same\ state\ it\ was\ saved\ in.\r\n\ Constructor\ for\ objects\ of\ class\ FileDriver\r\n\ Calls\ the\ constructor\ of\ the\ SudokuGUI\ class\r\n\ Uses\ the\ file\ chooser\ from\ the\ swing\ package\ to\ enable\ the\ external\ file\ browser\r\n\ Displays\ the\ file\ chooser\ to\ the\ user\r\n\r\n\ @throws\ FileNotFoundException\ if\ the\ file\ is\ not\ found\r\n
+numComments=3

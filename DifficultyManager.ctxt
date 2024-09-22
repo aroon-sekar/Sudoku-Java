@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=DifficultyManager
+comment0.text=\r\n\ DifficultyManager\r\n\ This\ class\ is\ used\ to\ manage\ logic\ of\ setting\ the\ difficulty\ of\ the\ game.\r\n\ It\ is\ a\ subclass\ of\ the\ SudokuGUI\ class.\r\n\ \r\n\ @author\ Arun\ Kumar\ Sekar\r\n\ @version\ January\ 2024\r\n
+comment1.params=
+comment1.target=DifficultyManager()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ DifficultyManager\r\n\ initialises\ the\ default\ difficulty\ to\ EASY\r\n\ initialises\ the\ constraints\ for\ the\ number\ of\ moves\ for\ each\ difficulty\r\n\ \r\n\ @param\ maxMoves9x9\ is\ the\ maximum\ number\ of\ moves\ allowed\ for\ a\ 9x9\ grid\r\n\ @param\ maxMoves4x4\ is\ the\ maximum\ number\ of\ moves\ allowed\ for\ a\ 4x4\ grid\r\n\ \r\n
+comment2.params=difficulty
+comment2.target=void\ setDifficulty(DifficultyManager.Difficulty)
+comment2.text=\r\n\ This\ method\ sets\ the\ difficulty\ of\ the\ game\ in\ the\ SudokuGUI\ class\r\n\ \r\n
+comment3.params=
+comment3.target=DifficultyManager.Difficulty\ getDifficulty()
+comment3.text=\r\n\ This\ method\ returns\ the\ difficulty\ of\ the\ game\ to\ the\ SudokuGUI\ class\r\n\ \r\n\ @return\ current\ difficulty\ of\ the\ game\r\n
+comment4.params=currentMoveCount\ gridSize
+comment4.target=boolean\ canMakeMove(int,\ int)
+comment4.text=\r\n\ This\ method\ checks\ if\ the\ player\ can\ make\ a\ move\ based\ on\ the\ current\ difficulty\r\n\ \r\n\ @param\ currentMoveCount\ is\ the\ number\ of\ moves\ made\ by\ the\ player\r\n\ @param\ gridSize\ is\ the\ size\ of\ the\ grid\r\n\ \r\n\ @return\ true\ if\ the\ player\ can\ make\ a\ move,\ false\ otherwise\r\n
+comment5.params=currentMoveCount\ gridSize
+comment5.target=int\ getRemainingMoves(int,\ int)
+comment5.text=\r\n\ This\ method\ returns\ the\ number\ of\ remaining\ moves\ based\ on\ the\ current\ difficulty\r\n\ \r\n\ @param\ currentMoveCount\ is\ the\ number\ of\ moves\ made\ by\ the\ player\r\n\ @param\ gridSize\ is\ the\ size\ of\ the\ grid\r\n\ \r\n\ @return\ the\ number\ of\ remaining\ moves\ if\ the\ difficulty\ is\ HARD,\ -1\ indicating\ unlimited\ moves\ for\ EASY\r\n
+comment6.params=gridSize
+comment6.target=int\ getMaxMoves(int)
+comment6.text=\r\n\ This\ method\ returns\ the\ maximum\ number\ of\ moves\ allowed\ for\ the\ current\ difficulty\r\n\ \r\n\ @param\ gridSize\ is\ the\ size\ of\ the\ grid\r\n\ \r\n\ @return\ the\ maximum\ number\ of\ moves\ allowed\ for\ the\ current\ difficulty\r\n
+numComments=7
