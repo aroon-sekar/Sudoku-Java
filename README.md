@@ -77,6 +77,4 @@ Key tests:
 - The text color for invalid numbers does not revert after undo/redo actions.
 - The GUI is not fully responsive to window resizing.
 
-## Personal Reflection
-Developing this Sudoku game has been a rewarding experience, allowing me to apply OOP concepts while overcoming challenges like managing game states and implementing complex GUI features. Future work could improve user experience through additional features like a hint system and leaderboard.
 
