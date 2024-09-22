@@ -1,9 +1,6 @@
 
 # Sudoku Game - Object-Oriented Programming Project
 
-![Sudoku GUI Screenshot](https://github.com/aroon-sekar/Sudoku-Java/blob/main/gui.png?raw=true)
-![Sudoku UI Screenshot](https://github.com/aroon-sekar/Sudoku-Java/blob/main/ui.png?raw=true)
-
 ## Overview
 This implements a **Sudoku** game built using **Java**. The project explores key concepts of **Object-Oriented Programming (OOP)**, such as inheritance, encapsulation, and modularity. The game includes both a **text-based interface** and a **Graphical User Interface (GUI)** using **Java Swing**. The application offers a user-friendly Sudoku gameplay experience with several features like undo/redo, difficulty selection, and save/load game functionality.
 
@@ -51,6 +48,9 @@ Key design choices include:
 - **Game Grid**: Interactive grid where users can input their numbers.
 - **File Operations**: Save or load game states using a file browser.
 
+![Sudoku GUI Screenshot](https://github.com/aroon-sekar/Sudoku-Java/blob/main/gui.png?raw=true)
+![Sudoku UI Screenshot](https://github.com/aroon-sekar/Sudoku-Java/blob/main/ui.png?raw=true)
+
 ## How to Run
 1. Clone the repository:
    ```bash
@@ -76,11 +76,6 @@ Key tests:
 ## Known Bugs and Limitations
 - The text color for invalid numbers does not revert after undo/redo actions.
 - The GUI is not fully responsive to window resizing.
-
-## Future Enhancements
-- Add a competitive timer for advanced gameplay.
-- Implement random initial board generation for more diverse puzzles.
-- Improve accessibility with color-blind-friendly themes and adjustable difficulty levels.
 
 ## Personal Reflection
 Developing this Sudoku game has been a rewarding experience, allowing me to apply OOP concepts while overcoming challenges like managing game states and implementing complex GUI features. Future work could improve user experience through additional features like a hint system and leaderboard.
